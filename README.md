@@ -3,7 +3,7 @@
 [Rust-tracing](https://github.com/tokio-rs/tracing) support for the [`coz`
 Causal Profiler](https://github.com/plasma-umass/coz)
 
-[![Documentation](https://docs.rs/tracing-coz/badge.svg)](https://docs.rs/tracing-coz)
+[![Documentation](https://docs.rs/tracing-coz/badge.svg)](https://docs.rs/tracing-coz/)
 
 ## Usage
 
