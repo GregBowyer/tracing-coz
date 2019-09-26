@@ -1,6 +1,6 @@
 [package]
 name = "tracing-coz"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Greg Bowyer <gbowyer@biasedunit.io>"]
 edition = "2018"
 repository = "https://github.com/GregBowyer/tracing-coz"
