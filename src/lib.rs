@@ -11,7 +11,8 @@
 //! [rust-readme]: https://github.com/alexcrichton/coz-rs/blob/master/README.md
 
 // Reexport this for the times its needed
-pub use coz::{Counter, thread_init};
+pub use coz::thread_init;
+use coz::Counter;
 
 use std::sync::atomic::{Ordering, AtomicUsize};
 
