@@ -1,0 +1,17 @@
+[package]
+name = "tracing-coz"
+version = "0.1.0"
+authors = ["Greg Bowyer <gbowyer@biasedunit.io>"]
+edition = "2018"
+repository = "https://github.com/GregBowyer/tracing-coz"
+description = "Bridge between the Coz profiler and rust tracing"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+tracing = "0.1.9"
+coz = "0.1.2"
+chashmap = "2.2.2"
+
+[profile.release]
+debug = 1
